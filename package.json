@@ -1,0 +1,17 @@
+{
+  "name": "discordjs_template",
+  "version": "1.0.0",
+  "description": "A template for Discordjs with command handler and example file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ned from {TheSourceCode}",
+  "license": "ISC",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "file:node_modules/discord.js",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.1"
+  }
+}

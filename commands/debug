@@ -1,0 +1,11 @@
+const Discord = require('discord.js')
+
+module.exports.run = async (bot, message, args) => {
+  //Laction 
+  await message.delete()
+  return message.reply("I go reloading. [Auto Destruction in 5 seconds]").then(m => m.delete(10000))
+}
+//nom de la commande
+module.exports.help = {
+  name: "debug"
+}
